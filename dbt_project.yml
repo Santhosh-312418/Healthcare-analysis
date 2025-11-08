@@ -36,5 +36,5 @@ clean-targets: # directories to be removed by `dbt clean`
 models:
   Healthcare_analysis:
     # Applies to all files under models/example/
-    models:
-      +materialized: table
+    staging:
+      +materialized: view

@@ -1,0 +1,12 @@
+models:
+  - name: src_claims
+    columns:
+      - name: AMOUNT_BILLED
+        tests:
+          - unique
+          - not_null
+          - accepted_values:
+              values: ['312.32']
+
+
+            

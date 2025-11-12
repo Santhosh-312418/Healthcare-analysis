@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: HEALTHCARE
+    schema: RAW_DATA
+    tables:
+      - name: R_CLAIMS
+        identifier: RAW_CLAIMS
+
+      - name: R_DIAGNOSES
+        identifier: RAW_DIAGNOSES

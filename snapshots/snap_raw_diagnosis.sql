@@ -12,3 +12,5 @@
     from healthcare.raw_data.raw_diagnoses
 
 {% endsnapshot %}
+
+# invalidate_hard_deletes=true  this option is to say dbt that the row is deleted in source table

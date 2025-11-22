@@ -38,3 +38,6 @@ models:
     # Applies to all files under models/example/
     staging:
       +materialized: view
+
+vars:
+  raw_schema: "raw_data"

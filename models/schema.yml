@@ -6,7 +6,8 @@ models:
           - unique
           - not_null
           - accepted_values:
-              values: ['312.32']
+              arguments:
+                values: ['312.32']
 
 
             

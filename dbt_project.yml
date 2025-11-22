@@ -38,3 +38,6 @@ models:
       +materialized: view
 flags:
   require_generic_test_arguments_property: true
+
+vars:
+  raw_schema: "raw_data"
